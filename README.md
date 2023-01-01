@@ -13,8 +13,8 @@ Here is where I make documentation in web form and in that document<br>you can a
 <br>
 
 
-| [Home](https://mrofiq466.github.io/pages/) | [List](https://mrofiq466.github.io/pages/0list/) |
-| ------ | ------ |
+| [List](https://mrofiq466.github.io/pages/0list/) |
+| ------ |
 
 
 <br>
