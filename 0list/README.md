@@ -1,1 +1,1 @@
-- [Install VM (KVM/ Qemu ) on Ubuntu Server](https://mrofiq466.github.io/DjaringanQ/deploy-kvm/)
+- [Install VM (KVM/ Qemu ) on Ubuntu Server](https://mrofiq466.github.io/DJaringanQ/deploy-kvm/)
