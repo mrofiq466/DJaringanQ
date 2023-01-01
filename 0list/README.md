@@ -1,0 +1,1 @@
+- [Install VM (KVM/ Qemu ) on Ubuntu Server](https://mrofiq466.github.io/pages/deploy-kvm/)
