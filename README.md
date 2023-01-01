@@ -14,7 +14,7 @@ Here is where I make documentation in web form and in that document<br>you can a
 <br>
 <div align="right">
 
-| [Home](https://mrofiq466.github.io/pages/) | [List](https://mrofiq466.github.io/pages/list/) |
+| [Home](https://mrofiq466.github.io/pages/) | [List](https://mrofiq466.github.io/pages/0list/) |
 | ------ | ------ |
 
 </div>
