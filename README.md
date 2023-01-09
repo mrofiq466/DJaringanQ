@@ -16,7 +16,8 @@ Here is where I make documentation in web form and in that document<br>you can a
 <br>
 
 
-| [List](0list/) | [YouTube](https://www.youtube.com/@DjaringanQ) | ------ |
+| [List](0list/) | [YouTube](https://www.youtube.com/@DjaringanQ) 
+| ------ |
 
 
 <br>
