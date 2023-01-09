@@ -4,5 +4,5 @@
 On Topology I create 5 vm for LAB but my documentation later only practice basic deploy.
 
 - [Deploy Manual VM (KVM/ Qemu ) on Ubuntu Server](manual/)
-- [Deploy VM With Terraform on Ubuntu Server](https://mrofiq466.github.io/DJaringanQ/deploy-kvm/terraform/)
-- [Deploy VM With Terraform Using Exiting Resource by TFGen](https://mrofiq466.github.io/DJaringanQ/deploy-kvm/tfgen/)
+- [Deploy VM With Terraform on Ubuntu Server](terraform/)
+- [Deploy VM With Terraform Using Exiting Resource by TFGen](tfgen/)
