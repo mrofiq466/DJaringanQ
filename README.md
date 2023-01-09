@@ -16,7 +16,7 @@ Here is where I make documentation in web form and in that document<br>you can a
 <br>
 
 
-| [List](https://mrofiq466.github.io/DJaringanQ/0list/) |
+| [List](0list/) |
 | ------ |
 
 
