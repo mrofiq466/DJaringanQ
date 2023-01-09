@@ -20,8 +20,28 @@ terraform version
 libvirtd --version
 virsh -c qemu:///system version
 ```
+## 2. Give Permission on Apparmor
+Add 'rwk' to allow permisson
+```
+```
+Or disable apparmor
+```
+systemctl stop apparmor
+systemctl disable apparmor
+```
 
-## 2. Try Install VM with Terraform
+## 3. Try Install VM with Terraform
+```
+git clone https://github.com/mrofiq466/ubuntu16-terraform.git
+cd ubuntu16-terraform
+
+# You can edit its content after downloading or you can also run it directly
+terraform apply -auto-approve
+```
+
+## Noted
+Give permission or disable selinux, for the service to run.<br>
+I set Apparmor because using ubuntu.
 
 ## Reference
 - https://github.com/dmacvicar/terraform-provider-libvirt/tree/main/examples/v0.13/ubuntu
