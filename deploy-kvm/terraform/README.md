@@ -38,7 +38,7 @@ systemctl disable apparmor
 ## 3. Try Install VM with Terraform
 ```
 git clone https://github.com/mrofiq466/ubuntu20-terraform.git
-cd ubuntu16-terraform
+cd ubuntu20-terraform
 
 # You can edit its content after downloading or you can also run it directly
 terraform init
