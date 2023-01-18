@@ -5,7 +5,7 @@ then,
 sudo apt update && \
 sudo apt -y install wget curl unzip
 ```
-Download binnary code. [check release](https://github.com/hashicorp/terraform/releases)
+Download binary code. [check release](https://github.com/hashicorp/terraform/releases)
 ```
 TER_VER=`curl -s https://api.github.com/repos/hashicorp/terraform/releases/latest | grep tag_name | cut -d: -f2 | tr -d \"\,\v | awk '{$1=$1};1'`
 wget https://releases.hashicorp.com/terraform/${TER_VER}/terraform_${TER_VER}_linux_amd64.zip
@@ -20,9 +20,14 @@ terraform version
 libvirtd --version
 virsh -c qemu:///system version
 ```
-## 2. Give Permission on Apparmor
-Add 'rwk' to allow permisson
+## 2. Set Apparmor
+Add 'rw' to allow permisson, [ref](https://documentation.suse.com/sles/12-SP5/html/SLES-all/cha-apparmor-profiles.html#:~:text=23.7-,File%20Permission%20Access%20Modes,-%23)
 ```
+nano  /etc/apparmor.d/usr.lib.libvirt.virt-aa-helper
+# search qcow and set to rw
+/**.qcow{,2} rw,
+# save & restart service
+systemctl restart apparmor
 ```
 Or disable apparmor
 ```
@@ -36,12 +41,14 @@ git clone https://github.com/mrofiq466/ubuntu16-terraform.git
 cd ubuntu16-terraform
 
 # You can edit its content after downloading or you can also run it directly
+terraform init
 terraform apply -auto-approve
 ```
 
 ## Noted
 Give permission or disable selinux, for the service to run.<br>
-I set Apparmor because using ubuntu.
+I set Apparmor because using ubuntu, if using rhel you can set selinux.<br>
+I recommend to allow Apparmor, rather than disabling it.
 
 ## Reference
 - https://github.com/dmacvicar/terraform-provider-libvirt/tree/main/examples/v0.13/ubuntu
