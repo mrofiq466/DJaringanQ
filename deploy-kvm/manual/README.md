@@ -1,4 +1,10 @@
-## 1. Install KVM / QEMU on Ubuntu
+## 1. Verify Your Device Support Virtual Machine
+
+```
+sudo apt-get install cpu-checker -y
+kvm-ok
+```
+## 2. Install KVM / QEMU on Ubuntu
 
 ```
 sudo apt update && \
@@ -11,7 +17,7 @@ sudo modprobe vhost_net
 lsmod | grep vhost
 echo vhost_net | sudo tee -a /etc/modules
 ```
-## 2. Create Bridge for Network VM
+## 3. Create Bridge for Network VM
 
 Edit netplan
 ```
@@ -44,7 +50,7 @@ network:
       dhcp6: no
 ```
 
-## 3. Create VM
+## 4. Create VM
 
 ### Prepare
 Download Image Cloud version and costume
