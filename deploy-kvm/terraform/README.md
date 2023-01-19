@@ -48,7 +48,8 @@ terraform apply -auto-approve
 ## Noted
 Give permission or disable selinux, for the service to run.<br>
 I set Apparmor because using ubuntu, if using rhel you can set selinux.<br>
-I recommend to allow Apparmor, rather than disabling it.
+I recommend to allow Apparmor, rather than disabling it.<br>
+Make sure your vm supports kvm.
 
 ## Reference
 - https://github.com/dmacvicar/terraform-provider-libvirt/tree/main/examples/v0.13/ubuntu
@@ -57,3 +58,7 @@ I recommend to allow Apparmor, rather than disabling it.
 - https://computingforgeeks.com/how-to-provision-vms-on-kvm-with-terraform/
 - https://computingforgeeks.com/how-to-install-terraform-on-linux/
 - https://developer.hashicorp.com/terraform/downloads
+
+<br>
+
+[Back](../)
