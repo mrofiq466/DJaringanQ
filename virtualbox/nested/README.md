@@ -23,7 +23,9 @@ On your Host open windows PowerShell run as administrator and execute
 ```
 bcdedit /set hypervisorlaunchtype off
 ```
-restart your host
+restart your host and verify your vm
+![image](https://user-images.githubusercontent.com/59303583/218285169-841ec5e4-208d-4605-be29-c539120d0a0f.png)
+
   
 ## Reference<br>
 - https://bhanuwriter.com/virtualized-amd-v-rvi-is-disabled/
