@@ -30,7 +30,7 @@ restart your host
 - https://www.cyberithub.com/how-to-enable-nested-vt-x-amd-v-in-virtualbox-step-by-step/
 - https://communities.vmware.com/t5/VMware-Workstation-Player/Virtualized-AMD-V-RVI-is-not-supported-on-this-platform/td-p/2900507
 
-<p>
+<br>
 
 
 [Back](../)
