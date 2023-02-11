@@ -4,14 +4,15 @@ This feature for vm support kvm
 On my case i use v7.0, and i research virtualbox supports kvm supports on v6.0 & latest.
 
 ## 2. Create VM & Setting 
-### A. Set Paravirtualization Interface to KVM & enable Hardware Virtualization<br>
+### A. Set Paravirtualization Interface to KVM & enable Hardware Virtualization
 ![image](https://user-images.githubusercontent.com/59303583/218284404-43cb1352-94e5-4228-83ff-a3c0971506bd.png)
 <br>
 
 
-### B. Enable Extended Features<br>
-![image](https://user-images.githubusercontent.com/59303583/218284412-95d16108-cf08-4ab7-9cdc-b792c84a412a.png)
 
+### B. Enable Extended Features
+![image](https://user-images.githubusercontent.com/59303583/218284412-95d16108-cf08-4ab7-9cdc-b792c84a412a.png)
+<br>
 For enable nested
 ```
 cd "Program Files\Oracle\VirtualBox"
