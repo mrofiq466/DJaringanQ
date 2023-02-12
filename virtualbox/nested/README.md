@@ -27,7 +27,7 @@ bcdedit /set hypervisorlaunchtype off
 ```
 restart your host and verify your vm<br>
 ![image](https://user-images.githubusercontent.com/59303583/218285169-841ec5e4-208d-4605-be29-c539120d0a0f.png)
-
+<br>but you cant run wsl
   
 ## Reference<br>
 - https://bhanuwriter.com/virtualized-amd-v-rvi-is-disabled/
