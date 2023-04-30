@@ -39,7 +39,7 @@ network:
     br0:
       interfaces: [enp1s0]
       addresses: [192.168.1.239/24]
-      gateway4: 192.168.2.1
+      gateway4: 192.168.1.1
       mtu: 1500
       nameservers:
         addresses: [8.8.8.8]
