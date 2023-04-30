@@ -21,13 +21,19 @@ libvirtd --version
 virsh -c qemu:///system version
 ```
 ## 2. Set Apparmor
-Add 'rw' to allow permisson, [ref](https://documentation.suse.com/sles/12-SP5/html/SLES-all/cha-apparmor-profiles.html#:~:text=File%20permission%20access%20modes%20consist%20of%20combinations%20of%20the%20following%20modes%3A)
+Add `/**.qcow{,2} rwk,` to allow file qcow, 
 ```
-nano  /etc/apparmor.d/usr.lib.libvirt.virt-aa-helper
-# search qcow and set to rw
-/**.qcow{,2} rw,
-# save & restart service
-systemctl restart apparmor
+nano  /etc/apparmor.d/libvirt/TEMPLATE.qemu
+...
+#include <tunables/global>
+profile LIBVIRT_TEMPLATE flags=(attach_disconnected) {
+  #include <abstractions/libvirt-qemu>
+/**.qcow{,2} rwk,
+}
+...
+# save & reload service
+apparmor_parser -r /etc/apparmor.d/libvirt/TEMPLATE.qemu
+systemctl reload apparmor
 ```
 Or disable apparmor
 ```
@@ -48,7 +54,7 @@ terraform apply -auto-approve
 ## Noted
 Give permission or disable selinux, for the service to run.<br>
 I set Apparmor because using ubuntu, if using rhel you can set selinux.<br>
-I recommend to allow Apparmor, rather than disabling it.<br>
+I recommend to start Apparmor service, rather than stoped it.<br>
 Make sure your vm supports kvm.
 
 ## Reference
@@ -58,6 +64,8 @@ Make sure your vm supports kvm.
 - https://computingforgeeks.com/how-to-provision-vms-on-kvm-with-terraform/
 - https://computingforgeeks.com/how-to-install-terraform-on-linux/
 - https://developer.hashicorp.com/terraform/downloads
+- https://jmorano.moretrix.com/2022/04/libvirt-guest-startup-issue-with-apparmor/
+- [documentation.suse.com](https://documentation.suse.com/sles/12-SP5/html/SLES-all/cha-apparmor-profiles.html#:~:text=File%20permission%20access%20modes%20consist%20of%20combinations%20of%20the%20following%20modes%3A)
 
 <br>
 
