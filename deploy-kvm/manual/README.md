@@ -53,7 +53,7 @@ network:
 ## 4. Create VM
 
 ### Prepare
-Download Image Cloud version and costume
+Download Image Cloud version and edit it.
 
 ```
 wget https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img
