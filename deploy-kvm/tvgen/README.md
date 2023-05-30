@@ -45,7 +45,6 @@ virsh pool-autostart vms
 ```
 virsh net-list --all
 virsh pool-list --all
-virsh net-list --all
 ```
 
 ## 3. TVGen Binary
