@@ -108,7 +108,7 @@ terraform apply -auto-approve
 virsh net-dhcp-leases default
 virsh list
 ssh 10.10.10.3 -l tshoot    # password is "help" this user have sudo access
-virsh console demo-tvgen1   # use user "root" and psw "password" by the default 
+virsh console demo-tvgen1   # use user "root" and psw "password" 
 ssh 10.10.10.3 -i ~/id_rsa  # ssh password less 
 ```
 
