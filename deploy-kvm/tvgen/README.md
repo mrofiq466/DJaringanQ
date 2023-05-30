@@ -127,6 +127,7 @@ When you create another instance make sure the domain name is different.<p>
 - https://computingforgeeks.com/virsh-commands-cheatsheet/
 - https://sysguides.com/create-and-manage-storage-pools-and-volumes-in-kvm/
 - https://registry.terraform.io/providers/dmacvicar/libvirt/latest/docs/resources/volume
+- https://github.com/rgl/terraform-libvirt-ubuntu-example/blob/master/main.tf
 
 
 <br>
