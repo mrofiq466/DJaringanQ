@@ -5,7 +5,7 @@ On Topology I create 5 vm for LAB but my documentation later only practice basic
 
 - [Deploy Manual VM (KVM/ Qemu ) on Ubuntu Server](manual/)
 - [Deploy VM With Terraform on Ubuntu Server](terraform/)
-- [Deploy VM With Terraform Using Exiting Resource by TVGen](tfgen/)
+- [Deploy VM With Terraform Using Exiting Resource by TVGen](tvgen/)
 
 <br>
 
