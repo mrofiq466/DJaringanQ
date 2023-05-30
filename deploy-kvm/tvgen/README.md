@@ -126,6 +126,7 @@ When you create another instance make sure the domain name is different.<p>
 - https://download.libvirt.org/virshcmdref/html/sect-net-create.html
 - https://computingforgeeks.com/virsh-commands-cheatsheet/
 - https://sysguides.com/create-and-manage-storage-pools-and-volumes-in-kvm/
+- https://registry.terraform.io/providers/dmacvicar/libvirt/latest/docs/resources/volume
 
 
 <br>
