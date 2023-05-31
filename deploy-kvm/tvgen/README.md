@@ -115,8 +115,8 @@ ssh 10.10.10.3 -i ~/id_rsa  # ssh password less
 ## Noted
 File variable it most case-sensitive.<br>
 Make sure AppArmor config.<br>
-You can use images again from /images to another instance. check on `virsh vol-list vms`<br>
-When you create another instance make sure the domain name is different.<p>
+You can use images again from /images to another instance. check on `virsh vol-list vms`.<br>
+When you create another instance make sure the domain name is different.
 
 ## Reference
 - [Redhat Doc Pool Virsh](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/sect-virtualization-storage_pools-creating-local_directories-virsh)
