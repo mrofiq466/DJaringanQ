@@ -30,7 +30,7 @@ Host ctrl1
 '''
 ```
 
-## Verify
+## 3. Verify
 ```
 ssh ctrl1
 ```
