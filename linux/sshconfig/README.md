@@ -1,4 +1,4 @@
-## 1. Insall package
+## 1. Install Package
 ```
 apt update && apt install -y
 ```
