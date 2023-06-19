@@ -1,6 +1,6 @@
 ## 1. Install Package
 ```
-apt update && apt install -y
+apt update && apt install -y ssh
 ```
 
 ## 2. Configure
