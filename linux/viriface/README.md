@@ -18,3 +18,6 @@ network:
 '''
 netplan apply
 ```
+
+
+[Back](../)
