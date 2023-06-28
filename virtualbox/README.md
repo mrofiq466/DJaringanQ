@@ -1,4 +1,4 @@
-- [Enable Nested in Virtualbox Windows10](nested/)
+- [Enable Nested in Virtualbox](nested/)
 
 
 <br>
