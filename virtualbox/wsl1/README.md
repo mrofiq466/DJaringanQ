@@ -1,6 +1,6 @@
 ## 1. Prepare
 - Turn off all your virtual machine
-- Enable Hypervisor `bcdedit /set hypervisorlaunchtype auto`
+- Enable Hypervisor `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
 - Reload your host
 
 ## 2. Install WSL1
