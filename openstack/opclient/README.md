@@ -54,4 +54,4 @@ openstack project list
 - https://docs.openstack.org/newton/user-guide/common/cli-set-environment-variables-using-openstack-rc.html
 - https://www.youtube.com/watch?v=CPgP_m2dtm4
 
-[Back](../back)
+[Back](../)
