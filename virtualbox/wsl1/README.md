@@ -24,4 +24,4 @@ cek your vm and wsl1
 # Noted
 Only support on WSL1 if WSL2 you can choose one of them WSL or Hypervisor
 
-[Back](../back)
+[Back](../)
