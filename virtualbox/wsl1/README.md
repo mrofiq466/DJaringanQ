@@ -1,6 +1,6 @@
 ## 1. Prepare
 - Turn off all your virtual machine
-- Enable Hypervisor `bcdedit /set hypervisorlaunchtype on`
+- Enable Hypervisor `bcdedit /set hypervisorlaunchtype auto`
 - Reload your host
 
 ## 2. Install WSL1
