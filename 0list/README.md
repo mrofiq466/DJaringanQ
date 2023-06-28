@@ -1,3 +1,4 @@
 - [Manage Virtualbox on Windows](../virtualbox/)
 - [Install VM ( KVM/ Qemu ) on Ubuntu Server](../deploy-kvm/)
 - [Linux Option Settings](../linux/)
+- [Openstack](../openstack)
