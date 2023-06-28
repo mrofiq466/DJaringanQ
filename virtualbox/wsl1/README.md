@@ -1,6 +1,10 @@
 ## 1. Prepare
 - Turn off all your virtual machine
-- Enable Hypervisor `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+- Enable Hypervisor & WSL
+````bash
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestar
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+````
 - Reload your host
 
 ## 2. Install WSL1
