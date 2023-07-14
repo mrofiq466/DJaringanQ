@@ -28,6 +28,7 @@ shc -r -f hello.sh -o hello
 ## Reference
 - https://www.simplified.guide/bash/compile-script
 - https://github.com/neurobin/shc/issues/98
+- https://github.com/neurobin/shc/issues/15
 
 
 [Back](../)
